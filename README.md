@@ -409,7 +409,7 @@ Isso garante que **nenhum valor fique “perdido” entre faixas** e que não ha
 - Um caso para cada faixa de IMC.
 - Casos para limites de IMC (valores das fronteiras).
 - Casos de erro de formato e de domínio (na versão refatorada).
-
+- Verificacao https://github.com/EstevezCodando/EngSoft_TesteSoftware_tp1/blob/main/TP1/CalculoImc/target/site/jacoco/index.html
 
 ## Parte 2 — Testes Baseados em Propriedades
 
@@ -532,6 +532,10 @@ class IMCPropertyTests {
 }
 ```
 
+## Ex3
+
+https://github.com/EstevezCodando/EngSoft_TesteSoftware_tp1/blob/main/TP1/CalculoImc/src/test/java/calculoimc/CalculoImc/IMCPropertyTestsEx3.java
+
 ## Ex4
 
 ### Ex4.1 Teste Sem Restrições de Entrada
@@ -651,6 +655,8 @@ A contraprovação (altura = 0) expôs falhas importantes:
 Essa etapa demonstra o poder do Property-Based Testing para identificar fragilidades estruturais no software antes do lançamento.
 
 ## Ex5 — Isolando Dependências com Mocks
+
+https://github.com/EstevezCodando/EngSoft_TesteSoftware_tp1/blob/main/TP1/CalculoImc/src/test/java/calculoimc/CalculoImc/IMCServiceTest.java
 
 ### 📌 Competência
 
